@@ -1,0 +1,183 @@
+body {
+    margin: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 140%;
+}
+
+#top {
+    text-align: center;
+}
+
+header {
+    padding-top: 24px;
+    padding-bottom: 24px;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+#image img {
+    width: 100%;
+    height: 20%;
+    margin-top: 2px;
+    margin-bottom: 35px;
+}
+
+#main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 16px;
+}
+
+#dieband {
+    text-align: justify;
+}
+
+
+.altranft {
+    width: 580px;
+    float: left;
+}
+
+.mirror {
+    width: 386px;
+    float: right;
+}
+
+.survive {
+    width: 580px;
+    margin-top: 30px;
+    float: left;
+}
+
+.caravan {
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 393px;
+    float: left;
+}
+
+.valerie {
+    float: right;
+    margin-top: 30px;
+    width: 572px;
+}
+
+.gruppenbild_unten {
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    width: 572px;
+}
+
+
+
+
+@media (max-width: 800px) {
+
+    body {
+    font-size: 94%;
+    }
+
+    #main {
+    margin-right: 5px;
+    margin-left: 5px
+    }
+
+    #image img {
+    margin-bottom: 0px;
+    }
+
+    .altranft {
+    max-width: 100%;
+    }
+
+    .mirror {
+        max-width: 100%;
+        margin-top: 20px;
+        float:left;
+        }
+
+    .survive {
+        max-width: 100%;
+        margin-top: 20px;
+        }
+
+    .caravan {
+        max-width: 100%;
+        margin-bottom: 0px;
+        margin-top: 20px;
+        }
+        
+    .valerie {
+        max-width: 100%;
+        margin-top: 20px;
+        }   
+        
+    .gruppenbild_unten {
+        max-width: 100%;
+        margin-top: 20px;
+        margin-bottom: 25px;
+            }         
+ }
+
+
+
+ @media (min-width: 800px) and (max-width: 1300px) and (orientation: portrait){
+
+    body {
+    font-size: 115%;
+    }
+
+    #main {
+    margin-right: 5px;
+    margin-left: 5px
+    }
+
+    #image img {
+    margin-bottom: 0px;
+    }
+
+    .altranft {
+        width: 80%;
+        float: left;
+    }
+
+    .mirror {
+        width: 80%;
+        float: left;
+        margin-top: 20px;
+    }
+
+    .caravan {
+        width: 80%;
+        float: left;
+        margin-bottom: 0px;
+        margin-top: 20px;
+    }
+
+    .survive {
+        width: 80%;
+        float: left;
+        margin-top: 20px;
+    }
+
+   
+        
+    .valerie {
+        width: 80%;
+        float: left;
+        margin-top: 20px;
+    }   
+        
+    .gruppenbild_unten {
+        width: 80%;
+        float: left;
+        margin-top: 20px;
+        margin-bottom: 25px;
+    }         
+ }
