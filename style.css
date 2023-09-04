@@ -1,7 +1,10 @@
 body {
     margin: 0px;
     font-family:Arial, Helvetica, sans-serif;
-    font-size: 140%;
+    font-size: 120%;
+    color: black;
+    text-align: center;
+    background-attachment: fixed;
 }
 
 #top {
@@ -9,8 +12,9 @@ body {
 }
 
 header {
-    padding-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    text-align: center;
 }
 
 .logo {
@@ -21,57 +25,67 @@ header {
 
 
 #image img {
-    width: 100%;
+    width: 52%;
     height: 20%;
     margin-top: 2px;
     margin-bottom: 35px;
+    border: 4px solid #ffffff;
 }
 
 #main {
-    max-width: 1000px;
+    max-width: 870px;
     margin: auto;
     padding: 16px;
+    padding-top: 35px;
+    text-align: center;
+    background-color: rgba(255, 252, 252, 0.9);
+    padding-bottom: 60px;
+    border: 4px solid #000000c6;
 }
 
 #dieband {
-    text-align: justify;
+    text-align: center;
+    
 }
 
 
 .altranft {
-    width: 580px;
+    width: 390px;
     float: left;
+    border: 4px solid #000000;
 }
 
 .mirror {
-    width: 386px;
+    width: 430px;
     float: right;
+    border: 4px solid #000000;
 }
 
 .survive {
-    width: 580px;
+    width: 390px;
     margin-top: 30px;
     float: left;
+    border: 4px solid #000000;
 }
 
 .caravan {
     margin-top: 30px;
     margin-bottom: 40px;
-    width: 393px;
+    width: 410px;
     float: left;
 }
 
 .valerie {
     float: right;
     margin-top: 30px;
-    width: 572px;
+    width: 425px;
 }
 
 .gruppenbild_unten {
     float: right;
     margin-top: 30px;
     margin-bottom: 40px;
-    width: 572px;
+    width: 425px;
 }
 
 
@@ -94,17 +108,19 @@ header {
 
     .altranft {
     max-width: 100%;
+    float: none;
     }
 
     .mirror {
         max-width: 100%;
         margin-top: 20px;
-        float:left;
+        float: none;
         }
 
     .survive {
         max-width: 100%;
         margin-top: 20px;
+        float: none;
         }
 
     .caravan {
